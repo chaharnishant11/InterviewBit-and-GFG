@@ -4,3 +4,4 @@ The folowing Data structures and algorithms are practiced here:
 <br />2.Stacks
 <br />3.Queue
 <br />4.Graphs
+<br />5.Algos
