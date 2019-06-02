@@ -1,3 +1,10 @@
+// Pattern for N = 3
+//
+//        1
+//       232
+//      34543
+
+
 #include<iostream>
 using namespace std;
 int main()
