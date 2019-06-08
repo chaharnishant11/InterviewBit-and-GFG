@@ -1,4 +1,4 @@
-t#include<bits/stdc++.h>
+#include<bits/stdc++.h>
  using namespace std;
 
  int Solution::maxSubArray(const vector<int> &A) {

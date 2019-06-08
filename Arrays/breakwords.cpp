@@ -17,7 +17,6 @@ void breakWords(char* s)
         if(c%2!=0 && c>4){
             int j=start+c/2;
             int end = strlen(s);
-           // cout << c << " " << j << " " << end << " " << start << endl;
             while(end>=j){
                 s[end]=s[end-1];
                 end--;
