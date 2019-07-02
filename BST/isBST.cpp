@@ -9,6 +9,7 @@ int maximum(BinaryTreeNode<int>* root){
     return max(root->data,max(l,r));
 }
 
+
 int minimum(BinaryTreeNode<int>* root){
     if(root==NULL) return INT_MAX;
     int l=minimum(root->left);
