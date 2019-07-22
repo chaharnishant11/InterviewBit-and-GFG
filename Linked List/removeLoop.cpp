@@ -2,7 +2,7 @@
 void removeLoop(Node *loopN,Node *head){
     Node *slow=head;
     Node *fast=loopN;
-    while(slow!=fast->next){
+    while(slow->next!=fast->next){
         slow=slow->next;
         fast=fast->next;
     }
@@ -23,7 +23,6 @@ void removeTheLoop(Node *head)
              break;
          }
      }
-
 }
 
 //Method 2
