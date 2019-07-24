@@ -10,8 +10,10 @@ int main()
         for(int i=0;i<V;i++){
             c=0;
               for(int j=0;j<V;j++){
-                  int x;cin>>x;
-      	        g[i][j]=x;if(x)c++;
+                  int x;
+                  cin>>x;
+      	          g[i][j]=x;
+                  if(x)c++;
     	    }
     	    if(c%2)odd++;
         }
