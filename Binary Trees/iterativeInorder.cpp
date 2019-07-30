@@ -1,5 +1,4 @@
-void inOrder(struct Node *root)
-{
+void inOrder(struct Node *root){
     stack<Node *> s;
     Node *curr = root;
 
@@ -13,5 +12,5 @@ void inOrder(struct Node *root)
         cout << curr->data << " ";
         curr = curr->right;
 
-    } 
+    }
 }

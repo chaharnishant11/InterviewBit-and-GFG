@@ -4,7 +4,6 @@
 using namespace std;
 
 int findMinVertex(int* weights, bool* visited, int n){
-
 	int minVertex = -1;
 	for(int i = 0; i < n; i++){
 		if(!visited[i] && (minVertex == - 1 || weights[i] < weights[minVertex])){
@@ -45,7 +44,7 @@ void prims(int** edges, int n){
 
 	for(int i = 1; i < n; i++){
 		if(parent[i] < i){
-			cout << parent[i] < " << i << " " << weights[i] << endl;
+			cout << parent[i] << " " << i << " " << weights[i] << endl;
 		}else{
 			cout << i << " " << parent[i] << " " << weights[i] << endl;
 		}
